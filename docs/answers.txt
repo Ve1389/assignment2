@@ -1,0 +1,55 @@
+1.
+ venera@Veneras-Laptop assignment2 % git branch
+* master
+venera@Veneras-Laptop assignment2 % git push origin master
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 790 bytes | 790.00 KiB/s, done.
+Total 7 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/Ve1389/assignment2.git
+   f4975e5..386ad28  master -> master
+
+2.
+ venera@Veneras-Laptop assignment2 % git rev-list --count HEAD
+9
+
+3.
+ venera@Veneras-Laptop assignment2 % git log -1 --format=%cd README.md
+Tue Feb 25 22:57:56 2025 -0600
+
+4.
+- To allow multiple developers to work on different features simultaneously.
+- To isolate new features or bug fixes from the main production branch.
+
+5.
+- `git log` shows the commit history of the repository.
+- `git status` shows the current state of the working directory and staging area.
+
+6. 
+git log -- Vehicle.h
+
+7. 
+git log --grep="file"
+
+8.
+- Inheritance is a mechanism where a class (child) inherits attributes and behaviors from 
+another class (parent);
+- Polymorphism allows objects of different classes to be treated as objects of a common
+ superclass, enabling method overriding and method overloading.
+- Encapsulation is the practice of restricting direct access to object data and allowing 
+controlled access through methods.
+
+9. 
+- In the “Dictator and Lieutenants” workflow, a lead developer (dictator) approves and 
+merges all contributions, while lieutenants manage different parts of the code.
+- In the “Integration Manager” workflow, developers work independently and submit their 
+changes to a dedicated integration manager for review and merging.
+
+10. 
+- It allows better delegation, as lieutenants manage smaller teams and reduce the dictator’s 
+workload.
+- It prevents bottlenecks by distributing responsibilities, increasing efficiency in a 
+large team.
